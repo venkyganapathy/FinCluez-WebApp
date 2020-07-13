@@ -1,0 +1,6 @@
+fincluez-webapp:
+  datasource:
+      url: jdbc:postgresql://localhost:5432/FinFlowz?searchpath=fincluez_maint
+      username: fincluez_maint
+      password: fincluez_maint
+      driver: org.postgresql.Driver
