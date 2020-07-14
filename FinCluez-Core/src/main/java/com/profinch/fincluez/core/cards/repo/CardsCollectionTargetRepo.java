@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface CardsCollectionTargetRepo extends PagingAndSortingRepository<CardsCollectionTarget, BigDecimal> {
     public List<CardsCollectionTarget> findAllByEntityCode(String entityCode, Pageable pageable);
-
+    //todo prabhu changes here
 }
